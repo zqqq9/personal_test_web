@@ -109,4 +109,20 @@ if (!fs.existsSync(redirectsPath) || fs.readFileSync(redirectsPath, 'utf8').trim
   console.log('已在 dist 目录中创建 _redirects 文件');
 }
 
+// 复制公共目录中的特殊文件到 dist 目录
+const publicPath = path.join(process.cwd(), 'public');
+const filesToCopy = ['loader.js', 'check.html'];
+
+filesToCopy.forEach(file => {
+  const sourcePath = path.join(publicPath, file);
+  const destPath = path.join(distPath, file);
+  
+  if (fs.existsSync(sourcePath)) {
+    fs.copyFileSync(sourcePath, destPath);
+    console.log(`已复制 ${file} 到 dist 目录`);
+  } else {
+    console.warn(`警告: ${file} 在 public 目录中不存在`);
+  }
+});
+
 console.log('Netlify 修复脚本完成!'); 
