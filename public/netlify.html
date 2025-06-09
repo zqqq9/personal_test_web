@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Deployment Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #0e1e25;
+        }
+        .success {
+            color: #20c997;
+            font-weight: bold;
+        }
+        .code {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+        .card {
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Netlify Deployment Test Page</h1>
+    <p class="success">✅ If you can see this page, static file serving is working correctly!</p>
+    
+    <div class="card">
+        <h2>SPA Routing Configuration</h2>
+        <p>For a single-page application to work correctly on Netlify, you need:</p>
+        <ol>
+            <li>A <code>_redirects</code> file in the publish directory with:</li>
+        </ol>
+        <div class="code">/*    /index.html    200</div>
+        <p>This tells Netlify to serve the index.html file for any route, allowing your SPA router to handle the routing.</p>
+    </div>
+    
+    <div class="card">
+        <h2>Common Issues</h2>
+        <ul>
+            <li>Missing <code>_redirects</code> file in the published directory</li>
+            <li>Incorrect base path in <code>vite.config.ts</code> (should be <code>'/'</code>)</li>
+            <li>Relative paths to assets (use absolute paths starting with <code>/</code>)</li>
+            <li>Missing base tag when needed</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>Check Current Configuration</h2>
+        <p>Try accessing these paths:</p>
+        <ul>
+            <li><a href="/netlify.txt">/netlify.txt</a> - Should display a text file</li>
+            <li><a href="/netlify.html">/netlify.html</a> - This page</li>
+            <li><a href="/nonexistent-path">/nonexistent-path</a> - Should load your SPA, not a 404 page</li>
+        </ul>
+    </div>
+    
+    <script>
+        // Print some diagnostic info
+        document.write('<div class="card"><h2>Page Information</h2>');
+        document.write('<p>Current URL: ' + window.location.href + '</p>');
+        document.write('<p>Pathname: ' + window.location.pathname + '</p>');
+        document.write('<p>User Agent: ' + navigator.userAgent + '</p>');
+        document.write('</div>');
+    </script>
+</body>
+</html> 

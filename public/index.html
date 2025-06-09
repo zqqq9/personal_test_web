@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PersonaLens</title>
+  <script>
+    // 处理从 404.html 重定向过来的请求
+    (function() {
+      // 检查是否有存储的路径
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      
+      // 如果有，重定向到正确的路径
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <h1>主页内容将很快加载...</h1>
+  <p>如果长时间未跳转，请<a href="./index.html">点击这里</a>。</p>
+</body>
+</html> 

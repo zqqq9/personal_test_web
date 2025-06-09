@@ -1,0 +1,599 @@
+{
+  "common": {
+    "freeTest": "Free Test",
+    "premiumTest": "Premium Test",
+    "back": "Back",
+    "backToHome": "Back to Home",
+    "backToBlog": "Back to Blog",
+    "blog": "Blog",
+    "continue": "Continue"
+  },
+  "landing": {
+    "title": "Discover Your",
+    "subtitle": "True Self",
+    "description": "Discover profound insights about your personality with our AI-powered assessment. Based on cutting-edge psychological research designed to reveal your unique strengths, motivations, and limitless potential.",
+    "startFreeTest": "Start Free Test",
+    "freeTestDescription": "Basic Personality Insights • 5 mins",
+    "premiumAnalysis": "Premium Analysis",
+    "premiumDescription": "Complete Insights • Career Guidance • 15 mins",
+    "private": "Privacy Protected",
+    "scienceBased": "Science-Based",
+    "features": {
+      "ai": {
+        "title": "AI-Powered Analysis",
+        "description": "Advanced machine learning algorithms deliver deep, accurate personality insights"
+      },
+      "accurate": {
+        "title": "Scientific Precision",
+        "description": "Based on validated psychological research and assessment methods"
+      },
+      "growth": {
+        "title": "Personal Growth",
+        "description": "Get actionable insights and recommendations for self-improvement"
+      }
+    },
+    "stats": {
+      "users": "Satisfied Users",
+      "accuracy": "Accuracy Rate",
+      "time": "Average Time",
+      "availability": "Available 24/7"
+    },
+    "footer": "Discover yourself with confidence."
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Get the insights that match your needs",
+    "forever": "Forever Free",
+    "oneTime": "One-Time Payment",
+    "recommended": "Recommended",
+    "guarantee": "100% Satisfaction Guarantee or Money Back",
+    "freePrice": "Free",
+    "premiumPrice": "$9.99",
+    "originalPrice": "$19.99",
+    "limitedTimeOffer": "50% OFF",
+    "discountBadge": "Special Offer",
+    "whyPremium": "Why Premium?",
+    "valueProps": {
+      "detailed": {
+        "title": "10x More Detail",
+        "description": "Get comprehensive analysis of all personality dimensions with specific percentage scores and detailed explanations"
+      },
+      "career": {
+        "title": "Career Guidance",
+        "description": "Discover ideal career paths, work environments, and professional development opportunities tailored to your personality"
+      },
+      "insights": {
+        "title": "Actionable Insights",
+        "description": "Receive specific recommendations for personal growth, relationship building, and maximizing your potential"
+      }
+    },
+    "testimonials": {
+      "title": "Trusted by Millions",
+      "first": {
+        "quote": "The premium test completely transformed how I approach my career. The insights were spot-on and the career suggestions led me to my dream job!",
+        "name": "Michael T.",
+        "title": "UX Designer at Google"
+      },
+      "second": {
+        "quote": "Worth every penny! The detailed analysis helped me understand my communication style and improved my relationships at work and home.",
+        "name": "Sarah J.",
+        "title": "Team Lead at Microsoft"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "accuracy": {
+        "question": "How accurate is the Premium test?",
+        "answer": "Our Premium test uses the scientifically validated Big Five personality model, based on decades of psychological research, with a 98% accuracy rate."
+      },
+      "upgrade": {
+        "question": "Can I upgrade later from the free version to premium?",
+        "answer": "Absolutely! You can upgrade anytime. Your free test results will be enhanced with additional premium insights."
+      },
+      "security": {
+        "question": "Is my data secure?",
+        "answer": "Absolutely. We use bank-level encryption and never share your personal data. Your privacy is our priority."
+      }
+    },
+    "freePlan": {
+      "title": "Free Assessment",
+      "description": "Basic personality insights",
+      "features": {
+        "basic": "Basic personality profile",
+        "report": "Simple trait analysis",
+        "time": "5-minute assessment",
+        "instant": "Instant results"
+      },
+      "cta": "Start Free Test"
+    },
+    "premiumPlan": {
+      "title": "Premium Analysis",
+      "description": "Complete personality insights",
+      "features": {
+        "detailed": "Comprehensive Big Five analysis",
+        "career": "Detailed career recommendations",
+        "comprehensive": "Full 40 questions",
+        "growth": "Growth action plan",
+        "relationships": "Relationship compatibility insights",
+        "pdf": "PDF report download",
+        "support": "Expert interpretation support"
+      },
+      "cta": "Get Premium Access"
+    }
+  },
+  "test": {
+    "title": "Personality Assessment",
+    "freeDescription": "Take our free personality test to discover your basic traits and tendencies.",
+    "premiumDescription": "Experience our comprehensive personality assessment for detailed insights and guidance.",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit",
+    "question": "Question",
+    "of": "of",
+    "complete": "Complete",
+    "questions": "questions",
+    "error": {
+      "nan": "Data error detected",
+      "nanDescription": "There was an error calculating some trait scores. Please try again or contact support if the issue persists."
+    }
+  },
+  "results": {
+    "title": "Your Personality Profile",
+    "subtitle": "Based on the Big Five Personality Traits",
+    "freeDescription": "Basic personality profile based on the Big Five model.",
+    "premiumDescription": "Detailed personality analysis with career and relationship insights.",
+    "recommendations": "Personal Recommendations",
+    "upgradeTitle": "Get More Insights",
+    "upgradeDescription": "Upgrade to premium for detailed analysis, career guidance, and personalized recommendations.",
+    "upgradeCta": "Upgrade to Premium",
+    "personalityType": "Your Personality Type",
+    "personalityDimensions": "Your Personality Dimensions",
+    "basicOverview": "Basic Overview",
+    "yourStrengths": "Your Strengths",
+    "top3": "Top 3",
+    "moreStrengths": "More strengths in premium",
+    "growthAreas": "Growth Areas",
+    "moreGrowthAreas": "More growth areas in premium",
+    "upgradeToSeeGrowthAreas": "Upgrade to premium to see your personalized growth plan.",
+    "careerSuggestions": "Career Suggestions",
+    "retakeTest": "Retake Test",
+    "downloadPDF": "Download PDF Report",
+    "downloading": "Downloading...",
+    "premium": "Premium",
+    "free": "Free",
+    "high": "High",
+    "low": "Low",
+    "generatedOn": "Generated on",
+    "confidentialReport": "Confidential Personality Report",
+    "dimension": "Dimension",
+    "score": "Score",
+    "strength": "Strength",
+    "growthArea": "Growth Area",
+    "careerOption": "Career Option",
+    "advancedTraits": "Advanced Personality Traits",
+    "advancedTrait": "Advanced Trait",
+    "advancedTraitsDescription": "These advanced traits are derived from analyzing patterns in your basic personality dimensions, offering deeper insights into your unique psychological makeup.",
+    "downloadPdf": "Download PDF Report",
+    "generatingPdf": "Generating PDF...",
+    "pdfError": "Error generating PDF. Please try again.",
+    "analysis": "Trait Analysis",
+    "upgradeForFullAccess": "Upgrade to Premium for full access to advanced trait analysis and personalized recommendations",
+    "error": {
+      "nan": "Error in dimension calculation",
+      "nanDescription": "We couldn't properly calculate some personality dimensions. Please retake the test or contact support if the issue persists."
+    },
+    "personalityTypes": {
+      "The Social Energizer": "The Social Energizer",
+      "The Compassionate Helper": "The Compassionate Helper",
+      "The Organized Achiever": "The Organized Achiever",
+      "The Emotionally Resilient": "The Emotionally Resilient",
+      "The Creative Explorer": "The Creative Explorer",
+      "The Balanced Individual": "The Balanced Individual",
+      "The Unique Individual": "The Unique Individual"
+    },
+    "descriptions": {
+      "premium": {
+        "The Social Energizer": "You thrive in social situations and draw energy from interacting with others. You're naturally outgoing, confident in groups, and enjoy being at the center of social activities. Your enthusiasm and social skills make you a natural leader and connector of people.",
+        "The Compassionate Helper": "You have a deep concern for others' well-being and naturally prioritize harmony in relationships. You're trustworthy, cooperative, and quick to help those in need. Your empathy and understanding make you an excellent friend, partner, and team member.",
+        "The Organized Achiever": "You approach life with discipline, organization, and a strong work ethic. You set high standards for yourself and consistently work toward your goals. Your reliability and attention to detail make you highly valued in both personal and professional settings.",
+        "The Emotionally Resilient": "You maintain emotional stability even under pressure and bounce back quickly from challenges. Your calm demeanor and positive outlook help you navigate stress effectively and support others during difficult times.",
+        "The Creative Explorer": "You have a natural curiosity about the world and enjoy exploring new ideas, experiences, and creative pursuits. Your open-mindedness and imagination drive you to seek out novelty and appreciate beauty in various forms.",
+        "The Balanced Individual": "You demonstrate a well-rounded personality with balanced traits across different dimensions. This gives you flexibility to adapt to various situations and connect with people from different backgrounds and perspectives.",
+        "The Unique Individual": "You have a unique combination of personality traits that make you adaptable and interesting. Your balanced approach to life allows you to succeed in various situations and connect with diverse groups of people."
+      },
+      "free": {
+        "The Social Energizer": "You're naturally outgoing and enjoy social interactions. You tend to be energetic in group settings and comfortable meeting new people.",
+        "The Compassionate Helper": "You show genuine care for others and value cooperation. You tend to be trusting and helpful in your relationships.",
+        "The Organized Achiever": "You're naturally organized and goal-oriented. You tend to be reliable and pay attention to details in your work.",
+        "The Emotionally Resilient": "You tend to stay calm under pressure and handle stress well. You generally maintain a positive outlook.",
+        "The Creative Explorer": "You're naturally curious and enjoy new experiences. You tend to be creative and open to different ideas.",
+        "The Balanced Individual": "You show a balanced personality across different traits, giving you flexibility in various situations.",
+        "The Unique Individual": "You have a unique personality combination that makes you adaptable in different situations."
+      }
+    }
+  },
+  "blog": {
+    "title": "Personality Insights Blog",
+    "recentPosts": "Recent Posts",
+    "readMore": "Read More",
+    "popularTopics": "Popular Topics",
+    "blogIntro": "Explore perspectives on personality psychology, career development, and personal growth. Learn how to make better life decisions by understanding your personality."
+  },
+  "traits": {
+    "openness": {
+      "title": "Openness to Experience",
+      "levels": {
+        "veryLow": "You prefer routine and familiar experiences.",
+        "low": "You tend to be conventional and practical.",
+        "moderate": "You balance tradition with occasional new experiences.",
+        "high": "You're curious and enjoy trying new things.",
+        "veryHigh": "You're highly imaginative and intellectually curious."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Explore one new activity monthly",
+          "2": "Read different genres",
+          "3": "Try international cuisines"
+        },
+        "low": {
+          "1": "Join a creative workshop",
+          "2": "Visit museums or exhibitions",
+          "3": "Learn about different cultures"
+        },
+        "moderate": {
+          "1": "Deepen expertise in areas of interest",
+          "2": "Engage in philosophical discussions",
+          "3": "Experiment with creative expression"
+        },
+        "high": {
+          "1": "Structure your creative pursuits",
+          "2": "Balance exploration with completion",
+          "3": "Share your ideas with others"
+        },
+        "veryHigh": {
+          "1": "Finish projects before starting new ones",
+          "2": "Apply creativity to practical problems",
+          "3": "Create routines for essential tasks"
+        }
+      }
+    },
+    "conscientiousness": {
+      "title": "Conscientiousness",
+      "levels": {
+        "veryLow": "You prefer spontaneity over structure.",
+        "low": "You tend to be relaxed about deadlines and organization.",
+        "moderate": "You balance structure with flexibility.",
+        "high": "You're organized and reliable.",
+        "veryHigh": "You're highly disciplined and detail-oriented."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Use simple organization apps",
+          "2": "Break tasks into small steps",
+          "3": "Set one achievable goal daily"
+        },
+        "low": {
+          "1": "Create basic routines",
+          "2": "Use visual reminders",
+          "3": "Implement time blocking"
+        },
+        "moderate": {
+          "1": "Refine your productivity system",
+          "2": "Develop decision-making frameworks",
+          "3": "Balance planning with execution"
+        },
+        "high": {
+          "1": "Allow flexibility in your plans",
+          "2": "Delegate when appropriate",
+          "3": "Make time for spontaneous activities"
+        },
+        "veryHigh": {
+          "1": "Practice mindfulness",
+          "2": "Embrace imperfection",
+          "3": "Balance achievement with enjoyment"
+        }
+      }
+    },
+    "extraversion": {
+      "title": "Extraversion",
+      "levels": {
+        "veryLow": "You strongly prefer solitude and quiet environments.",
+        "low": "You tend to be reserved and value alone time.",
+        "moderate": "You balance social time with personal space.",
+        "high": "You're outgoing and energized by social interaction.",
+        "veryHigh": "You're highly sociable and seek excitement."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Schedule brief social interactions",
+          "2": "Practice conversation starters",
+          "3": "Find quiet social settings"
+        },
+        "low": {
+          "1": "Join small interest-based groups",
+          "2": "Alternate social and alone time",
+          "3": "Build deeper connections with few people"
+        },
+        "moderate": {
+          "1": "Optimize your social environment",
+          "2": "Develop leadership skills",
+          "3": "Balance depth and breadth in relationships"
+        },
+        "high": {
+          "1": "Create meaningful alone time",
+          "2": "Practice active listening",
+          "3": "Develop deeper connections"
+        },
+        "veryHigh": {
+          "1": "Build reflective practices",
+          "2": "Focus on quality of connections",
+          "3": "Balance talking and listening"
+        }
+      }
+    },
+    "agreeableness": {
+      "title": "Agreeableness",
+      "levels": {
+        "veryLow": "You prioritize your own goals over others' needs.",
+        "low": "You tend to be direct and competitive.",
+        "moderate": "You balance cooperation with self-interest.",
+        "high": "You're cooperative and considerate of others.",
+        "veryHigh": "You're highly compassionate and selfless."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Practice active empathy",
+          "2": "Consider others' perspectives",
+          "3": "Look for win-win solutions"
+        },
+        "low": {
+          "1": "Develop listening skills",
+          "2": "Practice patience",
+          "3": "Express appreciation for others"
+        },
+        "moderate": {
+          "1": "Enhance diplomatic skills",
+          "2": "Build deeper relationships",
+          "3": "Engage in community service"
+        },
+        "high": {
+          "1": "Establish healthy boundaries",
+          "2": "Express your own needs",
+          "3": "Balance helping others with self-care"
+        },
+        "veryHigh": {
+          "1": "Protect your own interests",
+          "2": "Practice saying no",
+          "3": "Maintain work-life balance"
+        }
+      }
+    },
+    "neuroticism": {
+      "title": "Emotional Stability",
+      "levels": {
+        "veryLow": "You're exceptionally calm and resilient under pressure.",
+        "low": "You're generally relaxed and handle stress well.",
+        "moderate": "You experience normal emotional ups and downs.",
+        "high": "You tend to worry and experience stress more intensely.",
+        "veryHigh": "You're highly sensitive to stress and emotional stimuli."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Develop greater emotional awareness",
+          "2": "Practice expressing feelings",
+          "3": "Enhance empathy for others' emotions"
+        },
+        "low": {
+          "1": "Expand emotional vocabulary",
+          "2": "Recognize subtle emotional cues",
+          "3": "Support others through emotional challenges"
+        },
+        "moderate": {
+          "1": "Build consistent stress management routine",
+          "2": "Practice cognitive reframing",
+          "3": "Strengthen your support network"
+        },
+        "high": {
+          "1": "Establish a meditation practice",
+          "2": "Use cognitive behavioral techniques",
+          "3": "Create healthy lifestyle habits"
+        },
+        "veryHigh": {
+          "1": "Seek professional support",
+          "2": "Build comprehensive stress management",
+          "3": "Develop strong emotional boundaries"
+        }
+      }
+    },
+    "resilience": {
+      "title": "Resilience",
+      "levels": {
+        "veryLow": "You find it challenging to bounce back from setbacks.",
+        "low": "You need time and support to recover from difficulties.",
+        "moderate": "You generally recover from challenges with some effort.",
+        "high": "You bounce back well from most difficulties.",
+        "veryHigh": "You thrive under pressure and quickly overcome obstacles."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Build a strong support network",
+          "2": "Practice self-compassion",
+          "3": "Celebrate small wins"
+        },
+        "low": {
+          "1": "Develop problem-solving skills",
+          "2": "Practice stress management techniques",
+          "3": "Create positive daily habits"
+        },
+        "moderate": {
+          "1": "Build adaptive thinking patterns",
+          "2": "Strengthen your purpose and meaning",
+          "3": "Practice preventative self-care"
+        },
+        "high": {
+          "1": "Mentor others in resilience",
+          "2": "Take on calculated challenges",
+          "3": "Refine your recovery strategies"
+        },
+        "veryHigh": {
+          "1": "Balance resilience with vulnerability",
+          "2": "Know when to ask for help",
+          "3": "Share your resilience strategies"
+        }
+      }
+    },
+    "creativity": {
+      "title": "Creativity",
+      "levels": {
+        "veryLow": "You prefer established methods and conventional thinking.",
+        "low": "You appreciate structure and proven approaches.",
+        "moderate": "You balance creative thinking with practical considerations.",
+        "high": "You regularly generate novel ideas and solutions.",
+        "veryHigh": "You're highly innovative and think outside conventional boundaries."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Try basic creative exercises",
+          "2": "Explore different thinking styles",
+          "3": "Modify existing ideas slightly"
+        },
+        "low": {
+          "1": "Join creative workshops",
+          "2": "Practice brainstorming techniques",
+          "3": "Expose yourself to diverse perspectives"
+        },
+        "moderate": {
+          "1": "Create regular idea generation habits",
+          "2": "Combine concepts from different fields",
+          "3": "Refine your creative process"
+        },
+        "high": {
+          "1": "Implement your creative ideas",
+          "2": "Balance innovation with practicality",
+          "3": "Create structure for your creative work"
+        },
+        "veryHigh": {
+          "1": "Develop systems to capture ideas",
+          "2": "Focus on bringing ideas to completion",
+          "3": "Balance divergent and convergent thinking"
+        }
+      }
+    },
+    "ambition": {
+      "title": "Ambition",
+      "levels": {
+        "veryLow": "You prioritize contentment over achievement.",
+        "low": "You prefer a balanced, less competitive approach to life.",
+        "moderate": "You have specific goals while maintaining life balance.",
+        "high": "You're driven to achieve significant goals.",
+        "veryHigh": "You're highly motivated to reach exceptional achievements."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Identify areas of genuine interest",
+          "2": "Set small, manageable goals",
+          "3": "Connect activities to personal values"
+        },
+        "low": {
+          "1": "Explore areas for growth",
+          "2": "Define success on your own terms",
+          "3": "Create meaningful challenges"
+        },
+        "moderate": {
+          "1": "Refine your goal-setting system",
+          "2": "Build strategic thinking skills",
+          "3": "Develop your unique strengths"
+        },
+        "high": {
+          "1": "Balance achievement with wellbeing",
+          "2": "Practice mindfulness",
+          "3": "Build meaningful relationships"
+        },
+        "veryHigh": {
+          "1": "Develop sustainable work habits",
+          "2": "Define success beyond achievement",
+          "3": "Make time for rest and recovery"
+        }
+      }
+    },
+    "empathy": {
+      "title": "Empathy",
+      "levels": {
+        "veryLow": "You focus primarily on logical rather than emotional considerations.",
+        "low": "You tend to prioritize facts over feelings.",
+        "moderate": "You balance emotional understanding with objectivity.",
+        "high": "You easily understand and connect with others' emotions.",
+        "veryHigh": "You're highly attuned to others' emotional states and needs."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Practice active listening",
+          "2": "Learn about emotional intelligence",
+          "3": "Ask questions about others' feelings"
+        },
+        "low": {
+          "1": "Read fiction to understand perspectives",
+          "2": "Practice reflecting others' emotions",
+          "3": "Observe non-verbal communication"
+        },
+        "moderate": {
+          "1": "Deepen your emotional vocabulary",
+          "2": "Practice perspective-taking exercises",
+          "3": "Balance empathy with objectivity"
+        },
+        "high": {
+          "1": "Establish emotional boundaries",
+          "2": "Practice self-care",
+          "3": "Use empathy in leadership roles"
+        },
+        "veryHigh": {
+          "1": "Prevent emotional exhaustion",
+          "2": "Balance helping with self-care",
+          "3": "Channel empathy into effective action"
+        }
+      }
+    },
+    "risk_tolerance": {
+      "title": "Risk Tolerance",
+      "levels": {
+        "veryLow": "You strongly prefer safety and avoiding uncertainty.",
+        "low": "You're cautious about risk and need substantial information before acting.",
+        "moderate": "You take calculated risks after reasonable consideration.",
+        "high": "You're comfortable with uncertainty and eager to pursue opportunities.",
+        "veryHigh": "You actively seek challenging situations and thrive in uncertainty."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Try small, controlled risks in safe areas",
+          "2": "Develop risk assessment skills",
+          "3": "Identify when caution may limit growth"
+        },
+        "low": {
+          "1": "Gradually expand your comfort zone",
+          "2": "Create contingency plans for new attempts",
+          "3": "Learn from those who balance risk effectively"
+        },
+        "moderate": {
+          "1": "Refine your risk assessment process",
+          "2": "Learn from both successes and failures",
+          "3": "Adjust risk levels for different life areas"
+        },
+        "high": {
+          "1": "Develop systems to mitigate potential downsides",
+          "2": "Ensure risks align with core values",
+          "3": "Balance opportunity-seeking with stability"
+        },
+        "veryHigh": {
+          "1": "Implement structured decision-making for major risks",
+          "2": "Build safety nets for high-risk ventures",
+          "3": "Consider others affected by your risk-taking"
+        }
+      }
+    }
+  },
+  "errors": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDescription": "The page you are looking for may have been removed, renamed, or is temporarily unavailable.",
+    "postNotFound": "Post Not Found"
+  }
+} 

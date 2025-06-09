@@ -1,0 +1,10 @@
+# SPA configuration for Netlify
+[build]
+  publish = "dist"
+  command = "npm run build:netlify"
+
+# SPA redirect rule - 这是解决 404 问题的关键
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
