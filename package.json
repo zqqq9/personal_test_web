@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && echo '/* /index.html 200' > dist/_redirects && copy netlify.toml dist\\",
+    "build": "vite build && echo \"/* /index.html 200\" > dist/_redirects",
     "build:netlify": "vite build && node netlify-push.js && node netlify-build.js",
     "build:netlify-simple": "vite build && echo '/* /index.html 200' > dist/_redirects",
     "build:netlify-direct": "vite build && echo /* /index.html 200 > dist/_redirects && copy netlify.toml dist\\",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
