@@ -1,0 +1,507 @@
+{
+  "common": {
+    "freeTest": "Prueba Gratuita",
+    "premiumTest": "Prueba Premium",
+    "back": "Volver",
+    "backToHome": "Volver al Inicio",
+    "backToBlog": "Volver al Blog",
+    "blog": "Blog",
+    "continue": "Continuar"
+  },
+  "landing": {
+    "title": "Descubre Tu",
+    "subtitle": "Verdadero Yo",
+    "description": "Descubre profundos conocimientos sobre tu personalidad con nuestra evaluación impulsada por IA. Basado en investigación psicológica de vanguardia y diseñado para revelar tus fortalezas únicas, motivaciones y potencial ilimitado.",
+    "startFreeTest": "Iniciar Prueba Gratuita",
+    "freeTestDescription": "Conocimientos básicos de personalidad • 5 minutos",
+    "premiumAnalysis": "Análisis Premium",
+    "premiumDescription": "Conocimientos completos • Orientación profesional • 15 minutos",
+    "private": "Privado",
+    "scienceBased": "Basado en Ciencia",
+    "features": {
+      "ai": {
+        "title": "Análisis Impulsado por IA",
+        "description": "Algoritmos avanzados de aprendizaje automático proporcionan conocimientos profundos y precisos sobre la personalidad"
+      },
+      "accurate": {
+        "title": "Precisión Científica",
+        "description": "Basado en investigación psicológica probada y métodos de evaluación validados"
+      },
+      "growth": {
+        "title": "Crecimiento Personal",
+        "description": "Obtén conocimientos prácticos y recomendaciones para la superación personal"
+      }
+    },
+    "stats": {
+      "users": "Usuarios Satisfechos",
+      "accuracy": "Tasa de Precisión",
+      "time": "Tiempo Promedio",
+      "availability": "Disponible"
+    },
+    "footer": "Descúbrete con confianza."
+  },
+  "pricing": {
+    "title": "Elige Tu Plan",
+    "subtitle": "Obtén información que se adapte a tus necesidades",
+    "forever": "Gratuito Para Siempre",
+    "oneTime": "Pago Único",
+    "recommended": "POPULAR",
+    "guarantee": "100% de satisfacción garantizada o te devolvemos tu dinero",
+    "freePrice": "Gratis",
+    "premiumPrice": "€9.99",
+    "originalPrice": "€19.99",
+    "limitedTimeOffer": "50% DE DESCUENTO",
+    "discountBadge": "OFERTA ESPECIAL",
+    "freePlan": {
+      "title": "Evaluación Gratuita",
+      "description": "Conocimientos básicos de personalidad",
+      "features": {
+        "basic": "Perfil básico de personalidad",
+        "report": "Análisis simple de rasgos",
+        "time": "Evaluación de 5 minutos",
+        "instant": "Resultados instantáneos"
+      },
+      "cta": "Iniciar Prueba Gratuita"
+    },
+    "premiumPlan": {
+      "title": "Análisis Premium",
+      "description": "Conocimientos completos de personalidad",
+      "features": {
+        "detailed": "Análisis completo de los Cinco Grandes",
+        "career": "Recomendaciones detalladas de carrera",
+        "comprehensive": "40 preguntas completas",
+        "growth": "Plan de acción de crecimiento",
+        "relationships": "Información sobre compatibilidad en relaciones",
+        "pdf": "Descarga de informe PDF",
+        "support": "Soporte de interpretación experta"
+      },
+      "cta": "Obtener Acceso Premium"
+    }
+  },
+  "test": {
+    "title": "Evaluación de Personalidad",
+    "freeDescription": "Realiza nuestra prueba de personalidad gratuita para descubrir tus rasgos y tendencias básicas.",
+    "premiumDescription": "Experimenta nuestra evaluación completa de personalidad con información detallada y orientación.",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "submit": "Enviar"
+  },
+  "results": {
+    "title": "Tu Perfil de Personalidad",
+    "subtitle": "Basado en los cinco grandes rasgos de personalidad",
+    "freeDescription": "Tu perfil básico de personalidad basado en el modelo de los Cinco Grandes.",
+    "premiumDescription": "Tu análisis detallado de personalidad con información sobre carrera y relaciones.",
+    "recommendations": "Recomendaciones Personales",
+    "upgradeTitle": "Obtén Más Información",
+    "upgradeDescription": "Actualiza a premium para obtener análisis detallados, orientación profesional y recomendaciones personalizadas.",
+    "upgradeCta": "Actualizar a Premium",
+    "personalityType": "Tu Tipo de Personalidad",
+    "personalityDimensions": "Tus Dimensiones de Personalidad",
+    "basicOverview": "Resumen Básico",
+    "yourStrengths": "Tus Fortalezas",
+    "top3": "Top 3",
+    "moreStrengths": "más fortalezas en la versión premium",
+    "growthAreas": "Áreas de Crecimiento",
+    "moreGrowthAreas": "más áreas de crecimiento en la versión premium",
+    "upgradeToSeeGrowthAreas": "Actualiza a premium para ver tu plan de crecimiento personalizado.",
+    "careerSuggestions": "Sugerencias de Carrera",
+    "retakeTest": "Repetir Test",
+    "downloadPDF": "Descargar Informe PDF",
+    "downloading": "Descargando...",
+    "premium": "PREMIUM",
+    "free": "GRATUITO",
+    "high": "Alto",
+    "low": "Bajo",
+    "generatedOn": "Generado el",
+    "confidentialReport": "Informe Confidencial de Personalidad",
+    "dimension": "Dimensión",
+    "score": "Puntuación",
+    "strength": "Fortaleza",
+    "growthArea": "Área de Crecimiento",
+    "careerOption": "Opción de Carrera"
+  },
+  "blog": {
+    "title": "Blog de Insights de Personalidad",
+    "recentPosts": "Artículos Recientes",
+    "readMore": "Leer Más",
+    "popularTopics": "Temas Populares",
+    "blogIntro": "Explora ideas sobre psicología de la personalidad, desarrollo profesional y crecimiento personal. Aprende cómo entender tu personalidad puede llevarte a mejores decisiones de vida."
+  },
+  "traits": {
+    "openness": {
+      "title": "Apertura a la Experiencia",
+      "levels": {
+        "veryLow": "Prefieres rutinas familiares y pensamiento concreto.",
+        "low": "Tiendes a ser práctico y enfocado en realidades inmediatas.",
+        "moderate": "Equilibras enfoques tradicionales con nuevas ideas.",
+        "high": "Eres curioso y disfrutas explorando nuevos conceptos.",
+        "veryHigh": "Eres altamente imaginativo y amas el pensamiento abstracto."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Prueba una nueva actividad cada mes",
+          "2": "Lee diferentes puntos de vista",
+          "3": "Practica el pensamiento creativo"
+        },
+        "low": {
+          "1": "Explora nuevos pasatiempos",
+          "2": "Viaja a lugares desconocidos",
+          "3": "Aprende sobre diferentes culturas"
+        },
+        "moderate": {
+          "1": "Equilibra la rutina con la exploración",
+          "2": "Únete a grupos de discusión",
+          "3": "Participa en actividades artísticas"
+        },
+        "high": {
+          "1": "Persigue proyectos creativos",
+          "2": "Estudia temas complejos",
+          "3": "Comparte tus percepciones con otros"
+        },
+        "veryHigh": {
+          "1": "Convierte la creatividad en resultados prácticos",
+          "2": "Mentora a otros en innovación",
+          "3": "Equilibra el pensamiento abstracto con la acción concreta"
+        }
+      }
+    },
+    "conscientiousness": {
+      "title": "Responsabilidad",
+      "levels": {
+        "veryLow": "Prefieres la espontaneidad y horarios flexibles.",
+        "low": "Tiendes a ser relajado y menos estructurado.",
+        "moderate": "Equilibras organización con flexibilidad.",
+        "high": "Eres organizado y orientado a objetivos.",
+        "veryHigh": "Eres altamente disciplinado y enfocado en detalles."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Comienza con pequeñas tareas de organización",
+          "2": "Usa herramientas de planificación sencillas",
+          "3": "Establece metas diarias alcanzables"
+        },
+        "low": {
+          "1": "Establece rutinas básicas",
+          "2": "Configura recordatorios para tareas importantes",
+          "3": "Divide grandes proyectos en pequeños pasos"
+        },
+        "moderate": {
+          "1": "Mejora tus habilidades de gestión del tiempo",
+          "2": "Desarrolla hábitos consistentes",
+          "3": "Equilibra eficazmente el trabajo y el ocio"
+        },
+        "high": {
+          "1": "Delega tareas cuando sea apropiado",
+          "2": "Mantén la flexibilidad",
+          "3": "Comparte habilidades de organización"
+        },
+        "veryHigh": {
+          "1": "Practica la gestión del estrés",
+          "2": "Acepta la espontaneidad",
+          "3": "Ayuda a otros con la planificación"
+        }
+      }
+    },
+    "extraversion": {
+      "title": "Extraversión",
+      "levels": {
+        "veryLow": "Prefieres fuertemente actividades solitarias.",
+        "low": "Tiendes a ser reservado y valoras el tiempo tranquilo.",
+        "moderate": "Equilibras tiempo social con soledad.",
+        "high": "Eres extrovertido y energizado por la interacción social.",
+        "veryHigh": "Eres altamente sociable y buscas emoción."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Programa interacciones sociales breves regulares",
+          "2": "Practica conversaciones informales en entornos cómodos",
+          "3": "Únete a comunidades en línea"
+        },
+        "low": {
+          "1": "Participa en actividades de grupos pequeños",
+          "2": "Conéctate con personas de ideas afines",
+          "3": "Equilibra el tiempo a solas con el compromiso social"
+        },
+        "moderate": {
+          "1": "Amplía gradualmente tu red social",
+          "2": "Prueba nuevas actividades sociales",
+          "3": "Organiza discusiones en grupos pequeños"
+        },
+        "high": {
+          "1": "Organiza eventos sociales",
+          "2": "Considera roles de liderazgo",
+          "3": "Reserva tiempo para la reflexión"
+        },
+        "veryHigh": {
+          "1": "Practica la escucha activa",
+          "2": "Valora los momentos tranquilos",
+          "3": "Canaliza tu energía en actividades productivas"
+        }
+      }
+    },
+    "agreeableness": {
+      "title": "Amabilidad",
+      "levels": {
+        "veryLow": "Priorizas metas personales sobre necesidades ajenas.",
+        "low": "Tiendes a ser directo y competitivo.",
+        "moderate": "Equilibras cooperación con interés propio.",
+        "high": "Eres cooperativo y considerado con los demás.",
+        "veryHigh": "Eres altamente empático y altruista."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Practica la empatía positiva",
+          "2": "Considera las perspectivas de los demás",
+          "3": "Busca soluciones donde todos ganen"
+        },
+        "low": {
+          "1": "Desarrolla habilidades de escucha",
+          "2": "Practica la paciencia",
+          "3": "Expresa aprecio por los demás"
+        },
+        "moderate": {
+          "1": "Fortalece habilidades diplomáticas",
+          "2": "Construye relaciones más profundas",
+          "3": "Participa en servicio comunitario"
+        },
+        "high": {
+          "1": "Establece límites saludables",
+          "2": "Afirma tus necesidades",
+          "3": "Equilibra ayudar a otros con el autocuidado"
+        },
+        "veryHigh": {
+          "1": "Protege tus intereses",
+          "2": "Aprende a decir no",
+          "3": "Mantén el equilibrio trabajo-vida"
+        }
+      }
+    },
+    "neuroticism": {
+      "title": "Estabilidad Emocional",
+      "levels": {
+        "veryLow": "Eres excepcionalmente calmado y resiliente.",
+        "low": "Tiendes a ser emocionalmente estable y relajado.",
+        "moderate": "Experimentas altibajos emocionales normales.",
+        "high": "Eres sensible y experimentas emociones fuertes.",
+        "veryHigh": "Sientes las emociones intensamente y eres altamente sensible."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Reconoce y valida las emociones de otros",
+          "2": "Practica empatía activa",
+          "3": "Desarrolla vocabulario emocional"
+        },
+        "low": {
+          "1": "Comparte sentimientos más abiertamente",
+          "2": "Apoya a otros durante momentos emocionales",
+          "3": "Reconoce respuestas emocionales"
+        },
+        "moderate": {
+          "1": "Practica técnicas de mindfulness",
+          "2": "Identifica desencadenantes emocionales",
+          "3": "Equilibra la expresión emocional"
+        },
+        "high": {
+          "1": "Desarrolla rutinas regulares de manejo del estrés",
+          "2": "Practica técnicas de regulación emocional",
+          "3": "Crea entornos de apoyo"
+        },
+        "veryHigh": {
+          "1": "Establece prácticas diarias de manejo de ansiedad",
+          "2": "Utiliza enfoques estructurados de resolución de problemas",
+          "3": "Busca apoyo cuando sea necesario"
+        }
+      }
+    },
+    "resilience": {
+      "title": "Resiliencia",
+      "levels": {
+        "veryLow": "Encuentras desafiante recuperarte de los contratiempos.",
+        "low": "Tiendes a necesitar tiempo y apoyo para recuperarte de las dificultades.",
+        "moderate": "Generalmente puedes recuperarte de los desafíos con algo de esfuerzo.",
+        "high": "Te adaptas bien al cambio y te recuperas rápidamente de los contratiempos.",
+        "veryHigh": "Prosperas bajo presión y ves los obstáculos como oportunidades."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Desarrolla una red de apoyo",
+          "2": "Practica técnicas básicas de manejo del estrés",
+          "3": "Celebra pequeñas victorias"
+        },
+        "low": {
+          "1": "Identifica fortalezas personales",
+          "2": "Aprende de desafíos pasados",
+          "3": "Establece expectativas realistas"
+        },
+        "moderate": {
+          "1": "Desarrolla habilidades de resolución de problemas",
+          "2": "Cultiva hábitos de diálogo interno positivo",
+          "3": "Practica la adaptabilidad en la vida diaria"
+        },
+        "high": {
+          "1": "Mentor a otros en resiliencia",
+          "2": "Asume desafíos calculados",
+          "3": "Mantén la perspectiva durante tiempos difíciles"
+        },
+        "veryHigh": {
+          "1": "Equilibra la toma de riesgos con el autocuidado",
+          "2": "Comparte estrategias de resiliencia con otros",
+          "3": "Reconoce cuándo disminuir el ritmo y reflexionar"
+        }
+      }
+    },
+    "creativity": {
+      "title": "Creatividad",
+      "levels": {
+        "veryLow": "Prefieres métodos establecidos y soluciones prácticas.",
+        "low": "Valoras la consistencia y tiendes a abordar problemas convencionalmente.",
+        "moderate": "Puedes generar nuevas ideas cuando es necesario mientras respetas métodos probados.",
+        "high": "Regularmente piensas fuera de lo convencional y disfrutas enfoques innovadores.",
+        "veryHigh": "Constantemente generas ideas únicas y ves posibilidades que otros pasan por alto."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Exponte a perspectivas diversas",
+          "2": "Prueba una actividad creativa semanalmente",
+          "3": "Cuestiona suposiciones ocasionalmente"
+        },
+        "low": {
+          "1": "Únete a sesiones de lluvia de ideas",
+          "2": "Explora pasatiempos artísticos",
+          "3": "Lee sobre innovación en tu campo"
+        },
+        "moderate": {
+          "1": "Equilibra el pensamiento creativo con la aplicación práctica",
+          "2": "Colabora con pensadores diversos",
+          "3": "Experimenta con nuevos enfoques para tareas rutinarias"
+        },
+        "high": {
+          "1": "Desarrolla sistemas para capturar tus ideas",
+          "2": "Aprende a comunicar conceptos innovadores claramente",
+          "3": "Concéntrate en llevar las ideas a su finalización"
+        },
+        "veryHigh": {
+          "1": "Prioriza tus ideas más valiosas",
+          "2": "Desarrolla habilidades de ejecución",
+          "3": "Encuentra socios que complementen tus fortalezas creativas"
+        }
+      }
+    },
+    "ambition": {
+      "title": "Ambición",
+      "levels": {
+        "veryLow": "Prefieres un ritmo relajado y valoras la satisfacción sobre el logro.",
+        "low": "Disfrutas la estabilidad y tiendes a establecer metas modestas y alcanzables.",
+        "moderate": "Equilibras metas personales con satisfacción en tu situación actual.",
+        "high": "Estás impulsado a lograr metas significativas y constantemente buscas mejora.",
+        "veryHigh": "Estás intensamente enfocado en metas y persigues la excelencia implacablemente."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Identifica un área para crecimiento personal",
+          "2": "Establece metas pequeñas y manejables",
+          "3": "Reconoce tus valiosas contribuciones"
+        },
+        "low": {
+          "1": "Explora áreas de potencial sin explotar",
+          "2": "Desafíate ocasionalmente",
+          "3": "Conecta metas con valores personales"
+        },
+        "moderate": {
+          "1": "Desarrolla una visión clara para áreas clave de la vida",
+          "2": "Construye impulso a través de acción consistente",
+          "3": "Aprende de modelos ambiciosos"
+        },
+        "high": {
+          "1": "Equilibra logros con bienestar",
+          "2": "Desarrolla paciencia para metas a largo plazo",
+          "3": "Construye redes de apoyo"
+        },
+        "veryHigh": {
+          "1": "Practica mindfulness y conciencia del momento presente",
+          "2": "Delega y colabora efectivamente",
+          "3": "Asegura que las metas se alineen con valores más profundos"
+        }
+      }
+    },
+    "empathy": {
+      "title": "Empatía",
+      "levels": {
+        "veryLow": "Te enfocas principalmente en la lógica y los hechos más que en las emociones.",
+        "low": "Puedes reconocer los sentimientos de otros pero puede que no conectes profundamente con ellos.",
+        "moderate": "Generalmente entiendes las emociones de otros y respondes apropiadamente.",
+        "high": "Naturalmente sientes las emociones de otros y genuinamente te preocupas por su bienestar.",
+        "veryHigh": "Te conectas profundamente con las experiencias emocionales de otros y estás altamente sintonizado con sus necesidades."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Practica escuchar activamente sin juzgar",
+          "2": "Haz preguntas sobre las experiencias de otros",
+          "3": "Lee ficción que explore las emociones de los personajes"
+        },
+        "low": {
+          "1": "Observa señales emocionales en conversaciones",
+          "2": "Reflexiona sobre tus propias experiencias emocionales",
+          "3": "Practica expresar interés genuino"
+        },
+        "moderate": {
+          "1": "Profundiza tu comprensión de diferentes perspectivas",
+          "2": "Valida los sentimientos de otros antes de resolver problemas",
+          "3": "Expande tu vocabulario emocional"
+        },
+        "high": {
+          "1": "Establece límites saludables para prevenir el agotamiento emocional",
+          "2": "Usa tu empatía en liderazgo o mentoría",
+          "3": "Equilibra el apoyo emocional con soluciones prácticas"
+        },
+        "veryHigh": {
+          "1": "Protégete de la sobrecarga emocional",
+          "2": "Canaliza la empatía en causas significativas",
+          "3": "Practica la autocompasión así como la compasión por otros"
+        }
+      }
+    },
+    "risk_tolerance": {
+      "title": "Tolerancia al Riesgo",
+      "levels": {
+        "veryLow": "Prefieres fuertemente la seguridad y evitar la incertidumbre.",
+        "low": "Abordas el riesgo con cautela y necesitas información sustancial antes de actuar.",
+        "moderate": "Tomas riesgos calculados después de una consideración razonable.",
+        "high": "Te sientes cómodo con la incertidumbre y fácilmente persigues oportunidades.",
+        "veryHigh": "Buscas activamente situaciones desafiantes y prosperas en la incertidumbre."
+      },
+      "recommendations": {
+        "veryLow": {
+          "1": "Toma riesgos pequeños y manejables en áreas seguras",
+          "2": "Desarrolla habilidades de evaluación de riesgos",
+          "3": "Identifica cuándo la precaución puede limitar el crecimiento"
+        },
+        "low": {
+          "1": "Expande gradualmente tu zona de confort",
+          "2": "Crea planes de contingencia para nuevas iniciativas",
+          "3": "Aprende de otros que equilibran el riesgo efectivamente"
+        },
+        "moderate": {
+          "1": "Refina tu proceso de evaluación de riesgos",
+          "2": "Aprende tanto de éxitos como de fracasos",
+          "3": "Ajusta niveles de riesgo basado en diferentes áreas de la vida"
+        },
+        "high": {
+          "1": "Desarrolla sistemas para mitigar posibles desventajas",
+          "2": "Asegura que los riesgos se alineen con valores fundamentales",
+          "3": "Equilibra la búsqueda de oportunidades con estabilidad"
+        },
+        "veryHigh": {
+          "1": "Implementa toma de decisiones estructurada para riesgos mayores",
+          "2": "Construye redes de seguridad para empresas de alto riesgo",
+          "3": "Considera a otros afectados por tu toma de riesgos"
+        }
+      }
+    }
+  },
+  "errors": {
+    "pageNotFound": "Página No Encontrada",
+    "pageNotFoundDescription": "La página que estás buscando puede haber sido eliminada, renombrada o no está disponible temporalmente.",
+    "postNotFound": "Publicación No Encontrada"
+  }
+} 

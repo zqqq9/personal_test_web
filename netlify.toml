@@ -1,0 +1,21 @@
+# SPA configuration
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA redirect rule - critical for routing to work properly
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+# Headers for caching and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade" 

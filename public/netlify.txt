@@ -1,0 +1,10 @@
+This file verifies that static files are being served correctly on Netlify.
+If you can see this file, it means the deployment is working but there may be routing issues.
+
+Common issues:
+1. Missing or incorrect _redirects file
+2. Incorrect path to assets
+3. Problems with SPA routing
+
+Check that the _redirects file contains:
+/*    /index.html    200 

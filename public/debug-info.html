@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站故障排除指南</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #f5f7fa, #e4e8f0);
+            min-height: 100vh;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+            color: #e74c3c;
+        }
+        .step {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .step:before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .error-box {
+            background: #fff8f8;
+            border-left: 4px solid #e74c3c;
+            padding: 10px 15px;
+            margin: 20px 0;
+        }
+        details {
+            margin-bottom: 15px;
+        }
+        summary {
+            cursor: pointer;
+            color: #2980b9;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>多语言个性测试网站故障排除</h1>
+    
+    <div class="card">
+        <h2>网站信息</h2>
+        <p>如果您正在查看这个页面，可能是因为在加载主应用时遇到了问题。以下是一些可能帮助解决问题的步骤：</p>
+        <p><strong>当前URL:</strong> <span id="current-url"></span></p>
+        <p><strong>浏览器:</strong> <span id="browser-info"></span></p>
+    </div>
+
+    <div class="card">
+        <h2>常见问题解决方案</h2>
+        
+        <details open>
+            <summary>缓存问题</summary>
+            <div class="step">清除浏览器缓存，然后刷新页面</div>
+            <div class="step">尝试使用隐私模式或无痕模式打开网站</div>
+        </details>
+        
+        <details>
+            <summary>脚本加载失败</summary>
+            <div class="step">确保您的浏览器允许JavaScript</div>
+            <div class="step">检查是否有内容拦截器或广告拦截器阻止了脚本加载</div>
+            <div class="step">尝试使用不同的浏览器访问</div>
+        </details>
+        
+        <details>
+            <summary>网络连接问题</summary>
+            <div class="step">确认您的互联网连接正常</div>
+            <div class="step">检查您的网络是否阻止了某些资源的加载</div>
+            <div class="step">如果使用VPN，尝试关闭它</div>
+        </details>
+    </div>
+
+    <div class="card">
+        <h2>检测网站资源</h2>
+        <p>以下按钮将测试您的浏览器能否正确加载网站的关键资源：</p>
+        <div>
+            <button onclick="testResource('./assets/index.js')">测试JavaScript</button>
+            <button onclick="testResource('./assets/index.css')">测试CSS</button>
+            <button onclick="testResource('./assets/vendor.js')">测试依赖库</button>
+            <button onclick="window.location.href='./'">返回首页</button>
+        </div>
+        <div id="test-results" style="margin-top: 15px;"></div>
+    </div>
+
+    <div class="card">
+        <h2>手动调试控制台输出</h2>
+        <p>如果您了解如何使用浏览器开发者工具，请执行以下步骤：</p>
+        <div class="step">打开浏览器开发者工具（通常按F12或右键点击 → 检查）</div>
+        <div class="step">查看"控制台"选项卡中的错误信息</div>
+        <div class="step">检查"网络"选项卡，查看是否有资源加载失败</div>
+        
+        <div class="error-box">
+            <p>如果您看到类似以下错误，这可能是路径问题：</p>
+            <code>Failed to load resource: net::ERR_FILE_NOT_FOUND assets/index-XXXXX.js</code>
+        </div>
+    </div>
+
+    <script>
+        // 显示浏览器信息
+        document.getElementById('current-url').textContent = window.location.href;
+        document.getElementById('browser-info').textContent = navigator.userAgent;
+        
+        // 测试资源加载
+        function testResource(url) {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = `<p>正在测试: ${url}...</p>`;
+            
+            fetch(url)
+                .then(response => {
+                    if (response.ok) {
+                        resultsDiv.innerHTML = `<p style="color: green;">✅ 资源可以访问: ${url}</p>`;
+                    } else {
+                        resultsDiv.innerHTML = `<p style="color: red;">❌ 资源加载失败 (${response.status}): ${url}</p>`;
+                    }
+                })
+                .catch(error => {
+                    resultsDiv.innerHTML = `<p style="color: red;">❌ 资源加载错误: ${url} - ${error.message}</p>`;
+                });
+        }
+    </script>
+</body>
+</html> 
