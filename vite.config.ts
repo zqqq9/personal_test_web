@@ -9,6 +9,13 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: true,
     minify: process.env.NODE_ENV === 'production',
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
+      }
+    }
   },
   server: {
     proxy: {
