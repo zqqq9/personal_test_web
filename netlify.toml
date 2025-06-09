@@ -20,18 +20,33 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer-when-downgrade"
 
-# JavaScript module MIME types
+# JavaScript module MIME types - 非常重要
 [[headers]]
   for = "/*.js"
   [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
   for = "/*.mjs"
   [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "application/javascript; charset=utf-8"
+
+[[headers]]
+  for = "/assets/*.mjs"
+  [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
 
 [[headers]]
   for = "/*.js.map"
   [headers.values]
-    Content-Type = "application/json" 
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "/assets/*.js.map"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8" 

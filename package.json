@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && echo \"/* /index.html 200\" > dist/_redirects",
-    "build:netlify": "vite build && node netlify-push.js && node netlify-build.js",
+    "build": "vite build && echo \"/* /index.html 200\" > dist/_redirects && cp netlify.toml dist/ || copy netlify.toml dist\\",
+    "build:vercel": "vite build && node scripts/prepare-vercel.js",
+    "build:netlify": "vite build && node netlify-fix.js",
     "build:netlify-simple": "vite build && echo '/* /index.html 200' > dist/_redirects",
     "build:netlify-direct": "vite build && echo /* /index.html 200 > dist/_redirects && copy netlify.toml dist\\",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:netlify",
     "lint": "eslint .",
     "preview": "vite preview"
   },

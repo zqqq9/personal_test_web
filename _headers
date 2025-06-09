@@ -6,10 +6,25 @@
   Referrer-Policy: no-referrer-when-downgrade
 
 /*.js
-  Content-Type: application/javascript
+  Content-Type: application/javascript; charset=utf-8
+
+/assets/*.js
+  Content-Type: application/javascript; charset=utf-8
 
 /*.mjs
-  Content-Type: application/javascript
+  Content-Type: application/javascript; charset=utf-8
+
+/assets/*.mjs
+  Content-Type: application/javascript; charset=utf-8
 
 /*.js.map
-  Content-Type: application/json 
+  Content-Type: application/json; charset=utf-8
+
+/assets/*.js.map
+  Content-Type: application/json; charset=utf-8
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+/assets/*.css
+  Content-Type: text/css; charset=utf-8 
